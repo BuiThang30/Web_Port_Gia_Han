@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collections Layout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="slider">
+    <div class="slide-track">
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+
+      <!-- Clone để lặp mượt -->
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+
+      <!-- Clone để lặp mượt -->
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+    </div>      
+  </div>
+
+  <!-- Title -->
+  <div class="title-collections-1">Collections</div>
+
+  <!-- Navigation -->
+  <div class="nav-box">
+    <div class="nav-container">
+      <div class="nav">
+        <button onclick="navigateTo('little')">Little Champa</button>
+        <button onclick="navigateTo('about')">About Me</button>
+        <button class="active" onclick="navigateTo('collections')">Collections</button>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <div class="nav">
+        <button onclick="navigateTo('residency')">Bau Truc, Ninh Thuan residency</button>
+        <button onclick="navigateTo('other')">Other Activities</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+
+  <!-- Title -->
+  <div class="title-collections-2">From field to function</div>
+  <div class="page-wrapper" style="margin-bottom: 100px; max-width: 50%;">
+    <div class="text">
+      <p>Sandy and dark at first, Bàu Trúc clay fades to gray, then erupts in the kiln into a chili-red glow. I tested its crystallizability, learning when to press more earth into the form, and when to carve against its stubborn surface to communicate my spontaneity. By starting with basic forms, I built the Little Champa to reflect Ninh Thuận’s nature, made of matter, and is a substance of reality.</p>
+    </div>
+  </div>
+
+  <div class="collections">
+    <p class="text-collection text-top-collection">
+      Figure 1.1 is a vase I carved with crabs, fish, shrimp, and lotus blossoms, the same life that stirs in the ponds and rivers of Ninh Thuận. On one side, I attempted raised carvings distinguishable in Champa bas-reliefs, letting the lines flow freely as if nature and spirit were moving through my hands.
+    </p>
+
+    <!-- Các cụm bình -->
+    <div class="item item1">
+      <img src="image/collections1.png" class="pot" alt="vase 1" />
+      <img src="image/ellipse.svg" class="shadow" alt="shadow" />
+    </div>
+
+    <div class="item item2">
+      <img src="image/collections2.png" class="pot" alt="vase 2" />
+      <img src="image/ellipse.svg" class="shadow" alt="shadow" />
+    </div>
+
+    <div class="item item3">
+      <img src="image/collections3.png" class="pot" alt="vase 3" />
+      <img src="image/ellipse.svg" class="shadow" alt="shadow" />
+    </div>
+
+    <div class="item item4">
+      <img src="image/collections4.png" class="pot" alt="vase 4" />
+      <img src="image/ellipse.svg" class="shadow" alt="shadow" />
+    </div>
+
+    <div class="item item6">
+      <!-- <source> -->
+      <img src="image/collections6.png" class="pot" alt="vase 6"/>
+    </div>
+
+    <div class="item item5">
+      <img src="image/collections5.png" class="pot" alt="vase 5" />
+      <img src="image/ellipse.svg" class="shadow" alt="shadow" />
+    </div>
+
+    <p class="text-collection text-bottom-collection">
+      Figure 1.2 came from deep incisions and ridges, gestures that reminded me of horizons, constellations, and the steady rhythm of a heartbeat. Inspired by the Cham tale of the goddess Pô Nagar, born of sea foam and clouds, who shaped the earth and its people, I wanted the clay to hold something more than utility, to breathe with cosmology and faith.
+    </p>
+  </div>
+
+  <div class="line-container">
+    <div class="line" style="margin-top: 100px;"></div>
+  </div>
+
+  <!-- Footer Navigation -->
+  <div class="nav-box">
+    <div class="nav-container">
+      <div class="footer-nav">
+        <button onclick="navigateTo('little')">Little Champa</button>
+        <button onclick="navigateTo('about')">About Me</button>
+        <button class="active" onclick="navigateTo('collections')">Collections</button>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <div class="footer-nav">
+        <button onclick="navigateTo('residency')">Bau Truc, Ninh Thuan residency</button>
+        <button onclick="navigateTo('other')">Other Activities</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

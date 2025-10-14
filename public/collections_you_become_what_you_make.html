@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collections Layout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="slider">
+    <div class="slide-track">
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+
+      <!-- Clone để lặp mượt -->
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+
+      <!-- Clone để lặp mượt -->
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+    </div>      
+  </div>
+
+  <!-- Title -->
+  <div class="title-collections-1">Collections</div>
+
+  <!-- Navigation -->
+  <div class="nav-box">
+    <div class="nav-container">
+      <div class="nav">
+        <button onclick="navigateTo('little')">Little Champa</button>
+        <button onclick="navigateTo('about')">About Me</button>
+        <button class="active" onclick="navigateTo('collections')">Collections</button>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <div class="nav">
+        <button onclick="navigateTo('residency')">Bau Truc, Ninh Thuan residency</button>
+        <button onclick="navigateTo('other')">Other Activities</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+
+  <!-- Title -->
+  <div class="title-collections-2">You become what you make</div>
+  <div class="page-wrapper" style="margin-bottom: 100px; max-width: 70%;">
+    <div class="text">
+      <p>I now turn to materialism in the more commonly understood sense. Frankly, Bàu Trúc pottery has never been the first name that comes to mind when speaking of Vietnamese ceramics. Most people think instead of the refined, porcelain-like pieces of Bát Tràng that reflect East Asian aesthetics. Bàu Trúc’s reddish-brown, rustic pottery thus remains niche, gradually becoming unknown even to many Vietnamese in a globalized age. Because their craft brings little profit, Champa artisans must constantly balance survival with preserving their ancestral heritage. I am not Cham myself, yet seeing the struggles inclined me to learn how to hold and sell such pieces of nature, and how to commodify it to appeal to a wider, and more general sensibility.</p>
+      <p style="margin-top: 10px;">I wrestled with such a thought for a long time, unsure if my line of thinking was the correct way forward. Have I always been this materialistic? </p>
+    </div>
+  </div>
+
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+
+  <div class="collections_2">
+    <div class="gallery">
+      <!-- Cột trái -->
+      <div class="left-column">
+        <div class="top-row">
+          <div class="item_img"><img src="image/collections10.png" alt="collections10"></div>
+          <div class="item_img"><img src="image/collections11.png" alt="collections11"></div>
+        </div>
+        <div class="bottom-row">
+          <div class="item_img"><img src="image/collections13.png" alt="collections13"></div>
+        </div>
+      </div>
+
+      <!-- Cột phải -->
+      <div class="right-column">
+        <div class="item_img"><img style="height: 115%;" src="image/collections12.png" alt="collections12"></div>
+        <div class="item_img"><img style="height: 115%;" src="image/collections14.png" alt="collections14"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+
+  <!-- Footer Navigation -->
+  <div class="nav-box">
+    <div class="nav-container">
+      <div class="footer-nav">
+        <button onclick="navigateTo('little')">Little Champa</button>
+        <button onclick="navigateTo('about')">About Me</button>
+        <button class="active" onclick="navigateTo('collections')">Collections</button>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <div class="footer-nav">
+        <button onclick="navigateTo('residency')">Bau Truc, Ninh Thuan residency</button>
+        <button onclick="navigateTo('other')">Other Activities</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

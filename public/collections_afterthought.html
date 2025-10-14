@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collections Layout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="slider">
+    <div class="slide-track">
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+
+      <!-- Clone để lặp mượt -->
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+
+      <!-- Clone để lặp mượt -->
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+    </div>      
+  </div>
+
+  <!-- Title -->
+  <div class="title-collections-1">Collections</div>
+
+  <!-- Navigation -->
+  <div class="nav-box">
+    <div class="nav-container">
+      <div class="nav">
+        <button onclick="navigateTo('little')">Little Champa</button>
+        <button onclick="navigateTo('about')">About Me</button>
+        <button class="active" onclick="navigateTo('collections')">Collections</button>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <div class="nav">
+        <button onclick="navigateTo('residency')">Bau Truc, Ninh Thuan residency</button>
+        <button onclick="navigateTo('other')">Other Activities</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+
+  <!-- Title -->
+  <div class="title-collections-2">afterthought</div>
+  <div class="page-wrapper" style="margin-bottom: 100px; max-width: 70%;">
+    <div class="text">
+      <p style="text-align: center; margin-bottom: 10px;">Bàu Trúc pottery stands between two poles of materialism. One appreciates the realistic substance—the earth, the craft, the hands shaping it, while the other critiques how material pursuits mold our reality. Pottery is a meditative act, and the reddish-brown hue recalls centuries of Champa soil. What provides life to an object life is arguably the intention behind it, but without nurturing the hands that form and shape the clay, how long can such a life last?</p>
+      <p style="text-align: center; margin-bottom: 10px;">Must everything we create become materialist?</p>
+      <p style="text-align: center;">I don’t think so. I wonder if something exists in between, how do we preserve its dignity so it can stand, however shakily, on its own?</p>
+    </div>
+  </div>
+
+    
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+
+  <div class="collections_2">
+    <div class="gallery">
+      <!-- Cột trái -->
+      <div class="left-column">
+        <div class="top-row">
+          <div class="item_img"><img style="height: 100%;" src="image/collections15.png" alt="collections10"></div>
+          <div class="item_img"><img src="image/collections16.png" alt="collections11"></div>
+        </div>
+        <div class="bottom-row">
+          <div class="item_img"><img src="image/collections17.png" alt="collections13"></div>
+        </div>
+      </div>
+
+      <!-- Cột phải -->
+      <div class="right-column">
+        <div class="item_img"><img style="height: 130%;" src="image/collections18.png" alt="collections12"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+
+  <!-- Footer Navigation -->
+  <div class="nav-box">
+    <div class="nav-container">
+      <div class="footer-nav">
+        <button onclick="navigateTo('little')">Little Champa</button>
+        <button onclick="navigateTo('about')">About Me</button>
+        <button class="active" onclick="navigateTo('collections')">Collections</button>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <div class="footer-nav">
+        <button onclick="navigateTo('residency')">Bau Truc, Ninh Thuan residency</button>
+        <button onclick="navigateTo('other')">Other Activities</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gia Han Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="slider">
+    <div class="slide-track">
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+
+      <!-- Clone để lặp mượt -->
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+
+      <!-- Clone để lặp mượt -->
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+    </div>      
+  </div>
+
+  <!-- Title -->
+  <div class="title">Collections</div>
+
+  <!-- Navigation -->
+  <div class="nav-box">
+    <div class="nav-container">
+      <div class="nav">
+        <button onclick="navigateTo('little')">Little Champa</button>
+        <button onclick="navigateTo('about')">About Me</button>
+        <button class="active" onclick="navigateTo('collections')">Collections</button>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <div class="nav">
+        <button onclick="navigateTo('residency')">Bau Truc, Ninh Thuan residency</button>
+        <button onclick="navigateTo('other')">Other Activities</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+
+  <div class="container_tittle">
+    <h2>My limits and my crafts</h2>
+  </div>
+
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+  
+  <div class="switch-container" data-target="/collections_from_field_to_function">
+    <div class="switch-handle">From field to function</div>
+  </div>
+
+  <div class="switch-container" data-target="/collections_digging_for_dialogue">
+    <div class="switch-handle-right">Digging for dialogue</div>
+  </div>
+
+  <div class="switch-container" data-target="/collections_you_become_what_you_make">
+    <div class="switch-handle">You become what you make</div>
+  </div>
+
+  <div class="switch-container" data-target="/collections_afterthought">
+    <div class="switch-handle-right">AfterThought</div>
+  </div>
+
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+
+  <!-- Footer Navigation -->
+  <div class="nav-box">
+    <div class="nav-container">
+      <div class="footer-nav">
+        <button onclick="navigateTo('little')">Little Champa</button>
+        <button onclick="navigateTo('about')">About Me</button>
+        <button class="active" onclick="navigateTo('collections')">Collections</button>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <div class="footer-nav">
+        <button onclick="navigateTo('residency')">Bau Truc, Ninh Thuan residency</button>
+        <button onclick="navigateTo('other')">Other Activities</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

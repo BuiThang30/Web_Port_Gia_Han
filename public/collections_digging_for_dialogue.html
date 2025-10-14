@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collections Layout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="slider">
+    <div class="slide-track">
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+
+      <!-- Clone để lặp mượt -->
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+
+      <!-- Clone để lặp mượt -->
+      <div class="slide"><img src="image/image1.png" alt="Clay art 1"></div>
+      <div class="slide"><img src="image/image2.png" alt="Clay art 2"></div>
+      <div class="slide"><img src="image/image3.png" alt="Clay art 3"></div>
+    </div>      
+  </div>
+
+  <!-- Title -->
+  <div class="title-collections-1">Collections</div>
+
+  <!-- Navigation -->
+  <div class="nav-box">
+    <div class="nav-container">
+      <div class="nav">
+        <button onclick="navigateTo('little')">Little Champa</button>
+        <button onclick="navigateTo('about')">About Me</button>
+        <button class="active" onclick="navigateTo('collections')">Collections</button>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <div class="nav">
+        <button onclick="navigateTo('residency')">Bau Truc, Ninh Thuan residency</button>
+        <button onclick="navigateTo('other')">Other Activities</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="line-container">
+    <div class="line"></div>
+  </div>
+
+  <!-- Title -->
+  <div class="title-collections-2">Digging for dialogue</div>
+  <div class="page-wrapper" style="margin-bottom: 100px; max-width: 60%;">
+    <div class="text">
+      <p>After each harvest, Champa farmers molded the clay that remains on their rice fields for extra income, turning what was once rustic barebone utility into the flairs of their lives. Each mound embalms how Champa people connect and trade with one another. There is such a tactility in Bàu Trúc, for it turns the natural world surrounding the Champa people into objects and sentiments that could be held onto, interactions and memories of one another.</p>
+    </div>
+  </div>
+
+  <div class="collections_1">
+    <p class="text-collection text-top-collection_1">
+      I used shells, straws, even toothpicks as my tools even to handle large pieces. For Figure 2.1, I carved and leveled the clay with a self-made spatula wrapped in cloth. The piece is an offering plate, its surface shaped into mountains and a bull to recall the origins of the fruit placed on ancestral altars and the labor that brings it to the table.
+    </p>
+
+    <!-- Các cụm bình -->
+    <div class="item item7">
+      <div class="image-shadow">
+        <img src="image/collections7.png" alt="mountain buffalo">
+      </div>
+    </div>
+
+    <div class="item item8">
+      <img src="image/collections8.png" class="pot" alt="vase 5" />
+      <img src="image/ellipse.svg" class="shadow" alt="shadow" />
+    </div>
+
+    <p class="text-collection text-bottom-collection_1">
+      Divinity often comes from nature, and the Champa believe the same. For Figure 2.2, I shaped a zen pot with the circle of the sky and carved the bays of Ninh Thuận around it. The mountain in the center even works as an incense holder. The piece appears to resemble the blessed ecosystem of Ninh Thuận, encourage us to be grateful for what we’re endowed with.
+    </p>
+
+    <div class="item item9">
+      <img src="image/collections9.png" class="pot" alt="vase 5" />
+      <img src="image/ellipse.svg" class="shadow" alt="shadow" />
+    </div>
+
+    <p class="text-collection text-bottom-collection_2">
+      Figure 2.3 seated on a zen pot is Tứ Không - see no evil, hear no evil, speak no evil, think no evil. It embodies the spirit’s dialogue with the material world that nature provides. The monk’s smooth surface reflects the stillness of zen, yet, upon closer look, some beats are missing, revealing the sacrifices and mistakes they made along the way.
+    </p>
+
+  </div>
+
+  <div class="line-container">
+    <div class="line" style="margin-top: 100px;"></div>
+  </div>
+
+  <!-- Footer Navigation -->
+  <div class="nav-box">
+    <div class="nav-container">
+      <div class="footer-nav">
+        <button onclick="navigateTo('little')">Little Champa</button>
+        <button onclick="navigateTo('about')">About Me</button>
+        <button class="active" onclick="navigateTo('collections')">Collections</button>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <div class="footer-nav">
+        <button onclick="navigateTo('residency')">Bau Truc, Ninh Thuan residency</button>
+        <button onclick="navigateTo('other')">Other Activities</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
