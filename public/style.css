@@ -1208,27 +1208,6 @@ body {
   .caption_other {
     font-size: 13px;
   }
-
-  .gallery_2 {
-    flex-direction: column;
-  }
-
-  .gallery_2 .top-row {
-    flex-direction: column;
-  }
-
-  .gallery_2 .top-row img {
-    width: 100%;
-  }
-
-  .gallery_2 .left-video {
-    width: 100%;
-  }
-
-  .gallery_2 .right-col {
-    width: 100%;
-  }
-
 }
 
 /* <= 768px */
@@ -1416,6 +1395,26 @@ body {
 
   .gallery_1 {
     flex-direction: column;
+  }
+
+  .gallery_2 {
+    flex-direction: column;
+  }
+
+  .gallery_2 .top-row {
+    flex-direction: column;
+  }
+
+  .gallery_2 .top-row img {
+    width: 100%;
+  }
+
+  .gallery_2 .left-video {
+    width: 100%;
+  }
+
+  .gallery_2 .right-col {
+    width: 100%;
   }
 
   /* other activites */
