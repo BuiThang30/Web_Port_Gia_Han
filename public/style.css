@@ -693,57 +693,68 @@ body {
   object-fit: cover;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
+
 .gallery_2 {
   display: flex;
   align-items: stretch;
   width: 100%;
-  gap: 16px;
+  gap: 12px;
+  height: 100%;
+  box-sizing: border-box;
 }
 
+/* ===== CỘT TRÁI ===== */
 .gallery_2 .left-col {
   flex: 2;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  min-width: 0;
+  height: 100%;
 }
 
-/* 2 ảnh hàng trên */
+/* Hàng trên (2 ảnh) */
 .gallery_2 .top-row {
   display: flex;
   gap: 12px;
+  flex: 50%;
 }
 
 .gallery_2 .top-row img {
   flex: 1;
-  height: 320px;
+  width: 40%;
+  height: auto;
   object-fit: cover;
 }
 
-/* video cột trái (dưới 2 ảnh) */
+/* Video dưới */
 .gallery_2 .left-video {
-  width: 100%;
-  height: 300px;
+  flex: 50%;
   overflow: hidden;
 }
 
 .gallery_2 .left-video video {
   width: 100%;
-  height: 300px;
+  height: 100%;
   object-fit: cover;
-  display: block;
 }
 
 /* ===== CỘT PHẢI ===== */
 .gallery_2 .right-col {
   flex: 1;
   display: flex;
+  min-width: 0;
+  height: 100%;
 }
 
 .gallery_2 .right-col video {
-  width: 100%;
-  height: auto;
+  width: 109%;
+  height: 120%;
   object-fit: cover;
 }
+
+
 
 
 /* ==================== */
@@ -863,7 +874,7 @@ body {
   gap: 12px;
   width: 100%;
   margin: 0 auto;
-  align-items: stretch; /* Ép 2 cột cao bằng nhau */
+  align-items: stretch;
 }
 
 /* ========================= */
@@ -1022,26 +1033,6 @@ body {
   .item6 { top: 58%; left: 0; width: 50%; }
   .item8 {top: 32%; left: 35% ; width: 100%;}
   .item9 {top: 60%; left: 0% ; width: 62%;}
-
-  .gallery_2 {
-    flex-direction: column;
-  }
-
-  .gallery_2 .top-row {
-    flex-direction: column;
-  }
-
-  .gallery_2 .top-row img {
-    height: 250px;
-  }
-
-  .gallery_2 .left-video {
-    height: 300px;
-  }
-
-  .gallery_2 .right-col {
-    height: 250px;
-  }
 }
 
 /* <= 1024px */
@@ -1216,6 +1207,26 @@ body {
 
   .caption_other {
     font-size: 13px;
+  }
+
+  .gallery_2 {
+    flex-direction: column;
+  }
+
+  .gallery_2 .top-row {
+    flex-direction: column;
+  }
+
+  .gallery_2 .top-row img {
+    width: 100%;
+  }
+
+  .gallery_2 .left-video {
+    width: 100%;
+  }
+
+  .gallery_2 .right-col {
+    width: 100%;
   }
 
 }
