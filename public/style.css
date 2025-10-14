@@ -341,7 +341,6 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   height: 38vh;
   text-align: justify;
@@ -349,9 +348,9 @@ body {
 
 .container .text h1 {
   color: #CE9E2A;
-  text-align: center;
+  text-align: left;
   font-family: "1FTV Avilock";
-  font-size: 75px;
+  font-size: 64px;
   font-weight: 400;
   line-height: normal;
   margin: 0;
@@ -364,6 +363,7 @@ body {
   font-size: 21px;
   font-weight: 200;
   line-height: normal;
+  text-align: left;
 }
 
 .container .text.right {
@@ -534,7 +534,7 @@ body {
 }
 
 .text-bottom-collection {
-  bottom: 35%;
+  bottom: 33%;
   right: 5%;
   max-width: 40%;
   text-align: left;
@@ -626,7 +626,7 @@ body {
 .item3 { top: 13%; left: 45%; width: 25%; }
 .item4 { top: 5%; left: 65%; width: 62%; }
 .item5 { top: 65%; left: 35%; width: 45%; }
-.item6 { top: 55%; left: 0; width: 50%; }
+.item6 { top: 58%; left: 0; width: 50%; }
 .item7 {top: 0%; left: 0; width: 100%;}
 .item8 {top: 35%; left: 35% ; width: 100%;}
 .item9 {top: 63%; left: 0% ; width: 62%;}
@@ -940,7 +940,7 @@ body {
   }
 
   .text-bottom-collection {
-    bottom: 33%;
+    bottom: 30%;
     right: 5%;
   }
 
@@ -959,7 +959,7 @@ body {
   .item3 { top: 13%; left: 45%; width: 25%; }
   .item4 { top: 5%; left: 65%; width: 62%; }
   .item5 { top: 69%; left: 35%; width: 40%; }
-  .item6 { top: 55%; left: 0; width: 50%; }
+  .item6 { top: 58%; left: 0; width: 50%; }
   .item8 {top: 32%; left: 35% ; width: 100%;}
   .item9 {top: 60%; left: 0% ; width: 62%;}
 }
@@ -1101,7 +1101,7 @@ body {
   }
 
   .text-bottom-collection {
-    bottom: 30%;
+    bottom: 28%;
     right: 8%;
   }
 
@@ -1120,7 +1120,7 @@ body {
   .item3 { width: 30%; top: 17%; left: 45%; }
   .item4 { width: 60%; top: 18%; left: 69%; }
   .item5 { width: 40%; top: 71%; left: 38%; }
-  .item6 { top: 60%; left: 0; width: 50%; }
+  .item6 { top: 63%; left: 0; width: 50%; }
   .item8 {top: 37%; left: 35% ; width: 100%;}
   .item9 {top: 60%; left: 0% ; width: 62%;}
 
@@ -1305,7 +1305,7 @@ body {
   }
 
   .text-bottom-collection {
-    bottom: 32%;
+    bottom: 29%;
     right: 2%;
     max-width: 45%;
   }
@@ -1316,7 +1316,7 @@ body {
   .item3 { width: 30%; top: 17%; left: 45%; }
   .item4 { width: 60%; top: 18%; left: 69%; }
   .item5 { width: 40%; top: 71%; left: 38%; }
-  .item6 { top: 60%; left: 0; width: 50%; }
+  .item6 { top: 63%; left: 0; width: 50%; }
 
   .gallery {
     flex-direction: column;
@@ -1482,7 +1482,7 @@ body {
   }
 
   .text-collection {
-    font-size: 8px;
+    font-size: 7px;
   }
 
   .text-top-collection {
@@ -1502,7 +1502,7 @@ body {
   .item3 { width: 30%; top: 19%; left: 50%; }
   .item4 { width: 60%; top: 23%; left: 69%; }
   .item5 { width: 40%; top: 70%; left: 38%; }
-  .item6 { top: 60%; left: 0; width: 50%; }
+  .item6 { top: 62%; left: 0; width: 50%; }
 
   /* other activites */
   .othercommitment{
