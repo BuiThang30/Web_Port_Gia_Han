@@ -52,7 +52,7 @@ function navigateTo(page) {
       break;
 
     case 'collections':
-      window.location.href = '/collections';
+      window.location.href = '/little-champa#collections';
       break;
 
     case 'residency':
@@ -61,6 +61,19 @@ function navigateTo(page) {
     
     case 'other':
       window.location.href = '/other-activities';
+      break;
+    
+    case 'from':
+      window.location.href = '/collections_from_field_to_function';
+      break;
+    case 'digging':
+      window.location.href = '/collections_digging_for_dialogue';
+      break;
+    case 'whatyoumake':
+      window.location.href = '/collections_you_become_what_you_make';
+      break;
+    case 'afterthought':
+      window.location.href = '/collections_afterthought';
       break;
   }
 }

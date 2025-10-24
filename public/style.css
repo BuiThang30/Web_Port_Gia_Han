@@ -148,6 +148,13 @@ body {
   height: 1px;
   align-items: center;
 }
+
+.line1{
+  background-color: #CE9E2A;
+  width: 80%;
+  height: 1px;
+  margin: 1px auto;
+}
 /* About section */
 .about {
   padding: 50px 0;
@@ -188,7 +195,7 @@ body {
 
 .about img {
   width: 50vh;
-  height: 350px;
+  height: 390px;
   object-fit: cover;
   object-position: center;
   flex-shrink: 0;
@@ -331,7 +338,7 @@ body {
 /* Ảnh */
 .container .image img {
   width: 100%;
-  height: 50vh;
+  height: 55vh;
   object-fit: cover;
   display: block;
 }
@@ -350,7 +357,7 @@ body {
   color: #CE9E2A;
   text-align: left;
   font-family: "1FTV Avilock";
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 400;
   line-height: normal;
   margin: 0;
@@ -459,7 +466,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  height: 69px;
+  height: 30px;
   background: #000;
   border: 1px solid #CE9E2A;
   border-radius: 50px;
@@ -470,7 +477,7 @@ body {
   transition: right 0.4s ease;
   color: #CE9E2A;
   font-family: "1FTV Avilock", sans-serif;
-  font-size: 48px;
+  font-size: 20px;
   font-weight: 400;
   padding: 0 40px;
   user-select: none;
@@ -531,7 +538,7 @@ body {
   font-family: Oswald;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
 }
 
